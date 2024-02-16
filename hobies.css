@@ -1,0 +1,32 @@
+body{
+    text-align: left;
+    background-color: antiquewhite;
+    color: black;
+}
+header{text-align: center;
+background-color: aliceblue;
+color: black;}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container_1 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 2fr;
+    column-gap: 5px;
+
+   }
+   .text ul li a:hover {
+    text-decoration: underline;
+  }
+  .container_2 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 2fr;
+    column-gap: 5px;
+
+   }
+
